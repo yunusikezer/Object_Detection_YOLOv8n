@@ -1,0 +1,14 @@
+path: C:\Users\PC\Desktop\Object_Detection
+train: ../train/images
+val: ../valid/images
+
+
+nc: 2
+names: ['SignStore', 'Utility Pole Information Plate']
+
+roboflow:
+  workspace: visiosophia
+  project: street-objects-j2xud
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/visiosophia/street-objects-j2xud/1
