@@ -20,4 +20,5 @@ If you want to train yolov8 with your own dataset, this is what you should do:
         (For some beginner friendly experince you can try https://roboflow.com)
 
 
-2. After you get your all images annotaded you can move on to training progress visit [Ultralytics](https://public.roboflow.com) Github profile
+2. After you get your all images annotaded you can move on to training progress visit [Ultralytics](https://public.roboflow.com) Github profile to choose which model and size you want to contine with
+3. ss
