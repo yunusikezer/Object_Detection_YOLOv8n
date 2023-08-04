@@ -2,9 +2,9 @@ import os
 import shutil
 
 
-DATA_ALL_DIR = os.path.join('.', 'data_all')
+DATA_ALL_DIRECTORY = os.path.join('.', 'data_all')
 
-DATA_OUT_DIR = os.path.join('.', 'data')
+DATA_OUT_DIRECTORY = os.path.join('.', 'data')
 
 for set_ in ['train', 'validation', 'test']:
     for dir_ in [os.path.join(DATA_OUT_DIR, set_),
@@ -28,7 +28,8 @@ for j, filename in enumerate([train_bboxes_filename, validation_bboxes_filename,
         line = f.readline()
         while len(line) != 0:
             id, _, class_name, _, x1, x2, y1, y2, _, _, _, _, _ = line.split(',')[:13]
-            if class_name in [alpaca_id]:
+            if class_name in [SignStore_id]:
+            elif class_name in [Utility Pole Information Plate_id]
                 if not os.path.exists(os.path.join(DATA_OUT_DIR, set_, 'imgs', '{}.jpg'.format(id))):
                     shutil.copy(os.path.join(DATA_ALL_DIR, '{}.jpg'.format(id)),
                                 os.path.join(DATA_OUT_DIR, set_, 'imgs', '{}.jpg'.format(id)))
