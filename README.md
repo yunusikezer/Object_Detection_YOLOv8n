@@ -7,7 +7,7 @@ xx# train-with-yolov8-custom-dataset-guide
 </a>
 </p>
 
-## dataset
+## DATASET
 
 If you want to train yolov8 with your own dataset, this is what you should do:
 
