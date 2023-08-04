@@ -22,6 +22,6 @@ If you want to train yolov8 with your own dataset, this is what you should do:
 
 2. After you get your all images annotaded you can move on to training progress visit [Ultralytics](https://public.roboflow.com) Github profile to choose which model and size you want to contine with
    </a>
-3. Once you finished step two go directly to [Ultralytics Usage](https://docs.ultralytics.com/usage/python/#train) for your training progress
+3. Once you finished step two go directly to [Ultralytics Usage](https://docs.ultralytics.com/usage/python/#train) for your training and predicrion process 
    </a>
-4. When you finished you training 
+
