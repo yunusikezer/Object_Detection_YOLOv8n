@@ -17,7 +17,7 @@ If you want to train yolov8 with your own dataset, this is what you should do:
 </a>
 </p>
     If you have a annotatied data you can directly train your images after some structre arrangement. But if you don`t. No worries you can easly annotate your data with https://www.cvat.ai
-        (For some beginner friendly experince you can try roboflow.com)
+        (For some beginner friendly experince you can try https://roboflow.com)
 
 
 2. dd
