@@ -1,4 +1,4 @@
-# train-with-yolov8-custom-dataset-guide
+xx# train-with-yolov8-custom-dataset-guide
 
 <p align="center">
 
@@ -24,4 +24,4 @@ If you want to train yolov8 with your own dataset, this is what you should do:
    </a>
 3. Once you finished step two go directly to [Ultralytics Usage](https://docs.ultralytics.com/usage/python/#train) for your training progress
    </a>
-4. 
+4. When you finished you training 
